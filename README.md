@@ -4,4 +4,4 @@ Extract game specific information from a snapshot of an emulator playing Pokemon
 
 | **Documentation**    | **Build Status**        |
 |:--------------------:|:-----------------------:|
-| [DEV](https://meltedtofu.github.io/PokemonObserver.jl) | [![](https://github.com/meltedtofu/PokemonObserver.jl/workflows/Runtests/badge.svg)](https://github.com/meltedtofu/PokemonObserver.jl/actions?query=workflows/CI) |
+| [DEV](https://meltedtofu.com/PokemonObserver.jl) | [![](https://github.com/meltedtofu/PokemonObserver.jl/workflows/Runtests/badge.svg)](https://github.com/meltedtofu/PokemonObserver.jl/actions?query=workflows/CI) |
