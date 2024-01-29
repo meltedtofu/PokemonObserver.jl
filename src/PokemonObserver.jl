@@ -180,7 +180,7 @@ struct GameState
             objs,
             menu,
             Battle(gb),
-            Emulator.read(gb, 0xd31e) == 0x46 || Emulator.read(gb, 0xd320) == 0x46,        # Check if the parcel is in item slot 1 or 2.
+            GameBoy.read(gb, 0xd31e) == 0x46 || GameBoy.read(gb, 0xd320) == 0x46,        # Check if the parcel is in item slot 1 or 2.
             pokedollars(gb),
         )
     end
