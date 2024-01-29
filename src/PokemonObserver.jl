@@ -101,7 +101,7 @@ function readpos(gb::Emulator)::Tuple{UInt8, UInt8, UInt8}
 end
 
 function interpretscreen(pixels)
-    (objs, txt) = recognize(convert(Ptr{UInt32}, pixels))
+    (objs, txt) = recognize(pixels)
 
     current_menu = nothing
 
