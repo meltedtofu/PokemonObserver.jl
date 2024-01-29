@@ -64,6 +64,12 @@ function recognize_chars(pixels::Matrix{UInt32})
     out
 end
 
+function recognize(pixels::Matrix{UInt32})::Tuple{Matrix{Union{ObjectOfInterest, Nothing}}, Matrix{Char}}
+    objs = recognize_objects(frame)
+    chars = recognize_chars(frame)
+    (objs, chars)
+end
+
 function recognize(pixels::Ptr{UInt32})::Tuple{Matrix{Union{ObjectOfInterest, Nothing}}, Matrix{Char}}
     frame = Matrix{UInt32}(undef, 144, 160)
 
@@ -73,9 +79,7 @@ function recognize(pixels::Ptr{UInt32})::Tuple{Matrix{Union{ObjectOfInterest, No
         end
     end
 
-    objs = recognize_objects(frame)
-    chars = recognize_chars(frame)
-    (objs, chars)
+    recognize(frame)
 end
 
 export ObjectOfInterest

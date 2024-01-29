@@ -6,9 +6,9 @@ project_hash = "e43e493ac0bbd48a97b7b420bf090975b7968865"
 
 [[deps.GameBoy]]
 deps = ["OffsetArrays"]
-git-tree-sha1 = "35597f0db2cc741481285742d5bda9a9e0131346"
+git-tree-sha1 = "c1a01d7a2dcc8f18c66838cff28552f6a8ab5e14"
 uuid = "6fb4242f-1e24-4c34-aea5-7820002b36ca"
-version = "0.9.0"
+version = "0.9.2"
 
 [[deps.OffsetArrays]]
 git-tree-sha1 = "6a731f2b5c03157418a20c12195eb4b74c8f8621"
