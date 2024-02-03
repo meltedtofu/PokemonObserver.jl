@@ -190,6 +190,5 @@ export GameState
 
 # TODO Which state (battle, menu, overworld, dialog, etc)
 # TODO Which pokemon am I fighting?
-# TODO Wild vs trainer battle?
 
 end # module PokemonObserver
