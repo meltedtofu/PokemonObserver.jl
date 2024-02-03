@@ -1,7 +1,7 @@
 name = "PokemonObserver"
 uuid = "31212b72-6cb2-4d94-82c6-71d6f93632ce"
 authors = ["Melted Tofu <melted@meltedtofu.com>"]
-version = "0.5.4"
+version = "0.5.5"
 
 [deps]
 GameBoy = "6fb4242f-1e24-4c34-aea5-7820002b36ca"
