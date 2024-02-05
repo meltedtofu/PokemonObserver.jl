@@ -13,7 +13,6 @@ function BattleType(raw::UInt8)::BattleType
     elseif raw == 2
         TrainerBattle
     else
-        @info "Unknown Battle type $raw"
         SafariZoneBattle
     end
 end
